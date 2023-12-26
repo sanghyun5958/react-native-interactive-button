@@ -1,0 +1,35 @@
+# Dependencies
+/node_modules
+
+# Compiled output
+/android/app/build
+/ios/build
+/ios/Pods
+
+# Packager cache
+/react-native-packager-cache-*
+/react-native-webpack-server-cache-*
+/metro-bundler-cache-*
+
+# Yarn / NPM
+yarn.lock
+package-lock.json
+npm-debug.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editors
+.idea
+.vscode
+*.swp
+*.swo
+*.sublime-workspace
+
+# Keystore files
+*.jks
+*.keystore
+
+# Expo
+.expo
