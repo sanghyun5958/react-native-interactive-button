@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { View, Text, TouchableOpacity, TouchableNativeFeedback, ActivityIndicator, Platform, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, TouchableNativeFeedback, ActivityIndicator, Platform, StyleSheet, Alert } from 'react-native';
 
 class Button extends Component {
   render() {
@@ -18,7 +18,7 @@ class Button extends Component {
     const containerStyle = {
       ...styles.button,
       ...buttonStyle,
-      backgroundColor: type === 'solid' ? 'blue' : 'transparent', // 예시 색상
+      backgroundColor: type === 'solid' ? 'blue' : 'transparent',
       opacity: disabled ? 0.5 : 1,
     };
 
